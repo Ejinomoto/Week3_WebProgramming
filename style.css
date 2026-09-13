@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #a40ddb;
+    background: linear-gradient(90deg, rgba(164, 13, 219, 1) 0%, rgba(70, 17, 214, 1) 50%, rgba(219, 31, 134, 1) 100%);
+}
+
+#bungkus {
+    width: 1000px;
+    margin: 20px auto 0;
+}
+
+#logo img {
+    width: 80px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#logo {
+    margin: 10px 0;
+}
+
+#menu {
+    margin-top: 50px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 0;
+    color: white;
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+    border-bottom: 2px solid;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner {
+    /* height: 400px; */
+    /* overflow: hidden; */
+    padding-top: 20px;
+}
+
+#banner img {
+    width: 100%;
+    border-radius: 20px;
+    border: solid white 2px;
+}
+
+#highlight {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+}
+
+#highlight .box {
+    width: 320px;
+    height: 180px;
+    background: grey;
+    border-radius: 20px;
+    /* overflow: hidden; */
+}
+
+.box img {
+    border-radius: 20px;
+    width: 320px;
+    border: solid white 2px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#content {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    /* margin-top: 30px; */
+}
+
+.thumb img {
+    max-width: 320px;
+    height: auto;
+    border: solid white 2px;
+    border-radius: 20px;
+    display: block;
+}
+
+.text-content h1 {
+    margin-top: 0;
+    color: white;
+}
+
+.text-content p {
+    margin-top: 0;
+    font-size: large;
+    color: white;
+    /* margin-bottom: 12px; */
+}
+
+table td img {
+    width: 165px;
+    object-fit: fill;
+}
+
+#client h1 {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    border-bottom: 2px white solid;
+    margin: 30px 0;
+}
+#testimonials {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#testimonials h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: purple;
+    width: 450px;
+    padding: 30px 20px;
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px white;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: white;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+#sub {
+    text-align: center;
+    background-color: magenta;
+    border-radius: 20px;
+    border: solid 2px white;
+}
+
+#sub h1 {
+    color: white;
+    margin-top: 20px;
+}
+
+.email {
+    background-color: magenta;
+    padding: 20px 0;
+}
+
+.email input {
+    text-align: center;
+    border: none;
+    padding:  10px 200px;
+    border-radius: 20px;
+}
+
+#sub button {
+    text-align: center;
+    border: none;
+    padding:  10px 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: solid 2px white;
+}
+
+#sub button:hover {
+ cursor: pointer;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+    border-radius: 20px;
+    border: white solid 2px;
+}
+
+footer #text6 {
+    width: 100%;
+    max-width: 1000px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .info h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: black;
+}
+
+footer .info p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: black;
+}
+
+footer .right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+footer .box6 {
+    display: flex;
+    gap: 10px;
+}
+
+footer .box6 img {
+    width: 35px;
+    height: 35px;
+}
+
+footer .copyright {
+    font-size: 13px;
+    color: black;
+    margin: 0;
+}
